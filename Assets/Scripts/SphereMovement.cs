@@ -7,27 +7,31 @@ public class SphereMovement : MonoBehaviour
     private float moveSpeed;
     private bool episodeStarted = false;
 
-    private void Start()
+    void Start()
     {
-        transform.position = startMarker.position;
+        RestartEpisode();
     }
 
-    private void Update()
+    void Update()
     {
         if (!episodeStarted)
         {
-            // Generate a random movement speed for this episode
-            moveSpeed = Random.Range(1.0f, 5.0f);
+            moveSpeed = Random.Range(5.0f, 10.0f);
             episodeStarted = true;
         }
 
         transform.position = Vector3.MoveTowards(transform.position, endMarker.position, moveSpeed * Time.deltaTime);
 
+        // Check if the sphere has reached the end marker
         if (transform.position == endMarker.position)
         {
-            // End episode when sphere reaches end marker
-            FindObjectOfType<CubeAgent>().EndEpisode();
-            episodeStarted = false; // Reset flag for next episode
+            RestartEpisode();
         }
+    }
+
+    void RestartEpisode()
+    {
+        transform.position = startMarker.position;
+        episodeStarted = false;
     }
 }
