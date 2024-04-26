@@ -71,4 +71,21 @@ behaviors:
     time_horizon: 64
     summary_freq: 2000
 ```
+<button onclick="toggleImages()">Toggle example images</button>
+<div id="imageList" style="display: none;">
+    <img src="./Images/image1.jpg" alt="Image 1">
+    <img src="./Images/image2.jpg" alt="Image 2">
+    <img src="./Images/image3.jpg" alt="Image 3">
+    <!-- Voeg hier meer afbeeldingen toe -->
+</div>
 
+<script>
+    function toggleImages() {
+        var imageList = document.getElementById("imageList");
+        if (imageList.style.display === "none") {
+            imageList.style.display = "block";
+        } else {
+            imageList.style.display = "none";
+        }
+    }
+</script>
