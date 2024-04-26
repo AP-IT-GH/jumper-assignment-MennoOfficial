@@ -8,7 +8,7 @@ Sam Van Wouwe - S120214
 This involves an agent who jumps over moving obstacles like its in the middle of an intersection.
 The setup should look something like this.
 
-![setup](./Images/setup.png)
+![setup](./Images/Setup.png)
 
 Containing:
 - Agent(cube)
