@@ -8,7 +8,7 @@ Sam Van Wouwe - S120214
 This involves an agent who jumps over moving obstacles like its in the middle of an intersection.
 The setup should look something like this.
 
-![setup](./images/setup.png)
+![setup](./Images/setup.png)
 
 Containing:
 - Agent(cube)
@@ -18,7 +18,7 @@ Containing:
 
 If you want to create a more efficient AI you can make this a prefab and place the prefab a couple of times so the agent trains in parallel.
 
-![setup](./images/EfficientAI.png)
+![setup](./Images/EfficientAI.png)
 
 ## Goal
 
