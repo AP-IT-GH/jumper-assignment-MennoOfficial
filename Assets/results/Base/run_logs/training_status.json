@@ -1,0 +1,65 @@
+{
+    "jumper": {
+        "checkpoints": [
+            {
+                "steps": 2499999,
+                "file_path": "results\\Base\\jumper\\jumper-2499999.onnx",
+                "reward": -0.25185188430326955,
+                "creation_time": 1714149134.879651,
+                "auxillary_file_paths": [
+                    "results\\Base\\jumper\\jumper-2499999.pt"
+                ]
+            },
+            {
+                "steps": 2999986,
+                "file_path": "results\\Base\\jumper\\jumper-2999986.onnx",
+                "reward": 0.7095237431072053,
+                "creation_time": 1714150069.778826,
+                "auxillary_file_paths": [
+                    "results\\Base\\jumper\\jumper-2999986.pt"
+                ]
+            },
+            {
+                "steps": 3499992,
+                "file_path": "results\\Base\\jumper\\jumper-3499992.onnx",
+                "reward": -0.9375000149011612,
+                "creation_time": 1714150948.2513905,
+                "auxillary_file_paths": [
+                    "results\\Base\\jumper\\jumper-3499992.pt"
+                ]
+            },
+            {
+                "steps": 3999948,
+                "file_path": "results\\Base\\jumper\\jumper-3999948.onnx",
+                "reward": -0.6444444722599454,
+                "creation_time": 1714151833.7764452,
+                "auxillary_file_paths": [
+                    "results\\Base\\jumper\\jumper-3999948.pt"
+                ]
+            },
+            {
+                "steps": 4050945,
+                "file_path": "results\\Base\\jumper\\jumper-4050945.onnx",
+                "reward": -0.7192308117563908,
+                "creation_time": 1714151954.398393,
+                "auxillary_file_paths": [
+                    "results\\Base\\jumper\\jumper-4050945.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 4050945,
+            "file_path": "results\\Base\\jumper.onnx",
+            "reward": -0.7192308117563908,
+            "creation_time": 1714151954.398393,
+            "auxillary_file_paths": [
+                "results\\Base\\jumper\\jumper-4050945.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}
