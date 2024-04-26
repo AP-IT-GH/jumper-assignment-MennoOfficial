@@ -3,6 +3,8 @@
 Menno Plochaet - S142947
 Sam Van Wouwe - S120214
 
+Welcome to the Jumper Exercise repository! In this project, our goal is to develop an AI agent capable of smoothly jumping over obstacles aproaching from two angles.
+
 ## Setup
 
 This involves an agent who jumps over moving obstacles like its in the middle of an intersection.
